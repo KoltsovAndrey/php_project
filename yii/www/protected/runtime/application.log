@@ -30,3 +30,11 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/php_project/yii/www/index.php?r=gii/default/index
 ---
+2017/12/07 22:47:20 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "gii". in W:\domains\phpproject\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 W:\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 W:\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 W:\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/www/index.php?r=gii
+---
