@@ -1,14 +1,16 @@
+<!--http://translate.google.ru/translate_a/t?client=x&text=apple&hl=en&sl=en&tl=ru-->
+
 <?php
     
     $text = $_POST["text"];
 
-    $url = "https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20171207T231404Z.7f8566471c9b82ca.0074ef70006b378bdf8ed8b3d28eb2b80a05a9c7&text=".$text."&lang=ru-en&format=plain";
+    $url = "http://translate.google.ru/translate_a/t?client=x&text=".$text."&hl=ru&sl=ru&tl=en";
 
     echo $ans = file_get_contents($url)."<br/>";
 
-    if(preg_match("/\"text\":\[\"\w*\"\]/",$ans, $res)){
-      echo($restr = substr(substr($res[0], 9), 0, -2));
-     }
+//if(preg_match("/\"text\":\[\"\w*\"\]/",$ans, $res)){ 
+//  echo($restr = substr(substr($res[0], 9), 0, -2)); 
+// } 
 
 ?>
 

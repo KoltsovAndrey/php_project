@@ -38,3 +38,1566 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/yii/www/index.php?r=gii
 ---
+2017/12/08 02:06:17 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "ButtonController". in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php:486
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(270): CController->missingAction('ButtonControlle...')
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('ButtonControlle...')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button/ButtonCo...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/www/index.php?r=button/ButtonController
+---
+2017/12/08 02:06:35 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "LoginForm". in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php:486
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(270): CController->missingAction('LoginForm')
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('LoginForm')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button/LoginFor...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/www/index.php?r=button/LoginForm
+---
+2017/12/09 12:22:31 [error] [exception.Error] Error: Call to a member function isAttributeRequired() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1520
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(NULL, 'name', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(37): CActiveForm->labelEx(NULL, 'name')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:22:34 [error] [exception.Error] Error: Call to a member function isAttributeRequired() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1520
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(NULL, 'name', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(37): CActiveForm->labelEx(NULL, 'name')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:23:19 [error] [exception.Error] Error: Call to a member function isAttributeRequired() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1520
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(NULL, 'name', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(38): CActiveForm->labelEx(NULL, 'name')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:23:20 [error] [exception.Error] Error: Call to a member function isAttributeRequired() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1520
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(NULL, 'name', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(38): CActiveForm->labelEx(NULL, 'name')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:23:20 [error] [exception.Error] Error: Call to a member function isAttributeRequired() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1520
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(NULL, 'name', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(38): CActiveForm->labelEx(NULL, 'name')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:23:20 [error] [exception.Error] Error: Call to a member function isAttributeRequired() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1520
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(NULL, 'name', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(38): CActiveForm->labelEx(NULL, 'name')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:23:20 [error] [exception.Error] Error: Call to a member function isAttributeRequired() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1520
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(NULL, 'name', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(38): CActiveForm->labelEx(NULL, 'name')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:23:20 [error] [exception.Error] Error: Call to a member function isAttributeRequired() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1520
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(NULL, 'name', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(38): CActiveForm->labelEx(NULL, 'name')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:23:21 [error] [exception.Error] Error: Call to a member function isAttributeRequired() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1520
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(NULL, 'name', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(38): CActiveForm->labelEx(NULL, 'name')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:23:21 [error] [exception.Error] Error: Call to a member function isAttributeRequired() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1520
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(NULL, 'name', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(38): CActiveForm->labelEx(NULL, 'name')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:24:28 [error] [exception.Error] Error: Call to a member function isAttributeRequired() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1520
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(NULL, 'name', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(38): CActiveForm->labelEx(NULL, 'name')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:24:28 [error] [exception.Error] Error: Call to a member function isAttributeRequired() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1520
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(NULL, 'name', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(38): CActiveForm->labelEx(NULL, 'name')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:24:29 [error] [exception.Error] Error: Call to a member function isAttributeRequired() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1520
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(NULL, 'name', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(38): CActiveForm->labelEx(NULL, 'name')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:24:34 [error] [exception.Error] Error: Call to a member function isAttributeRequired() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1520
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(NULL, 'text', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(38): CActiveForm->labelEx(NULL, 'text')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:24:35 [error] [exception.Error] Error: Call to a member function isAttributeRequired() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1520
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(NULL, 'text', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(38): CActiveForm->labelEx(NULL, 'text')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:24:35 [error] [exception.Error] Error: Call to a member function isAttributeRequired() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1520
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(NULL, 'text', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(38): CActiveForm->labelEx(NULL, 'text')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:24:35 [error] [exception.Error] Error: Call to a member function isAttributeRequired() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1520
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(NULL, 'text', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(38): CActiveForm->labelEx(NULL, 'text')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:24:35 [error] [exception.Error] Error: Call to a member function isAttributeRequired() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1520
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(NULL, 'text', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(38): CActiveForm->labelEx(NULL, 'text')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:25:32 [error] [exception.Error] Error: Call to a member function isAttributeRequired() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1520
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(NULL, 'text', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(44): CActiveForm->labelEx(NULL, 'text')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:25:33 [error] [exception.Error] Error: Call to a member function isAttributeRequired() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1520
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(NULL, 'text', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(44): CActiveForm->labelEx(NULL, 'text')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:25:33 [error] [exception.Error] Error: Call to a member function isAttributeRequired() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1520
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(NULL, 'text', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(44): CActiveForm->labelEx(NULL, 'text')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:25:33 [error] [exception.Error] Error: Call to a member function isAttributeRequired() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1520
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(NULL, 'text', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(44): CActiveForm->labelEx(NULL, 'text')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:25:34 [error] [exception.Error] Error: Call to a member function isAttributeRequired() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1520
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(NULL, 'text', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(44): CActiveForm->labelEx(NULL, 'text')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:25:34 [error] [exception.Error] Error: Call to a member function isAttributeRequired() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1520
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(NULL, 'text', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(44): CActiveForm->labelEx(NULL, 'text')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:25:42 [error] [exception.Error] Error: Call to a member function isAttributeRequired() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1520
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(NULL, 'text', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(44): CActiveForm->labelEx(NULL, 'text')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:26:19 [error] [exception.Error] Error: Call to a member function getValidators() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:2454
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php(1540): CHtml::activeInputField('text', NULL, 'name', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(NULL, 'name', Array)
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(45): CActiveForm->textField(NULL, 'name')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:26:30 [error] [exception.Error] Error: Call to a member function getValidators() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:2454
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php(1540): CHtml::activeInputField('text', NULL, 'text', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(NULL, 'text', Array)
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(45): CActiveForm->textField(NULL, 'text')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:26:30 [error] [exception.Error] Error: Call to a member function getValidators() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:2454
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php(1540): CHtml::activeInputField('text', NULL, 'text', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(NULL, 'text', Array)
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(45): CActiveForm->textField(NULL, 'text')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:26:30 [error] [exception.Error] Error: Call to a member function getValidators() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:2454
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php(1540): CHtml::activeInputField('text', NULL, 'text', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(NULL, 'text', Array)
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(45): CActiveForm->textField(NULL, 'text')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:26:31 [error] [exception.Error] Error: Call to a member function getValidators() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:2454
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php(1540): CHtml::activeInputField('text', NULL, 'text', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(NULL, 'text', Array)
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(45): CActiveForm->textField(NULL, 'text')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:26:31 [error] [exception.Error] Error: Call to a member function getValidators() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:2454
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php(1540): CHtml::activeInputField('text', NULL, 'text', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(NULL, 'text', Array)
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(45): CActiveForm->textField(NULL, 'text')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:31:09 [error] [exception.CException] CException: Property "CActiveForm.text" is not defined. in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('text', 'text')
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(ButtonController), 'CActiveForm', Array)
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(198): CBaseController->createWidget('CActiveForm', Array)
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(20): CBaseController->beginWidget('CActiveForm', Array)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#15 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:31:11 [error] [exception.CException] CException: Property "CActiveForm.text" is not defined. in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('text', 'text')
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(ButtonController), 'CActiveForm', Array)
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(198): CBaseController->createWidget('CActiveForm', Array)
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(20): CBaseController->beginWidget('CActiveForm', Array)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#15 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:31:11 [error] [exception.CException] CException: Property "CActiveForm.text" is not defined. in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('text', 'text')
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(ButtonController), 'CActiveForm', Array)
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(198): CBaseController->createWidget('CActiveForm', Array)
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(20): CBaseController->beginWidget('CActiveForm', Array)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#15 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:31:11 [error] [exception.CException] CException: Property "CActiveForm.text" is not defined. in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('text', 'text')
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(ButtonController), 'CActiveForm', Array)
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(198): CBaseController->createWidget('CActiveForm', Array)
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(20): CBaseController->beginWidget('CActiveForm', Array)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#15 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:31:21 [error] [exception.Error] Error: Call to a member function isAttributeRequired() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1520
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(NULL, 'text', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(39): CActiveForm->labelEx(NULL, 'text')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:31:22 [error] [exception.Error] Error: Call to a member function isAttributeRequired() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1520
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(NULL, 'text', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(39): CActiveForm->labelEx(NULL, 'text')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:34:02 [error] [exception.Error] Error: Call to a member function getAttributeLabel() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1495
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(585): CHtml::activeLabel(NULL, 'text', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(39): CActiveForm->label(NULL, 'text')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:34:02 [error] [exception.Error] Error: Call to a member function getAttributeLabel() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1495
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(585): CHtml::activeLabel(NULL, 'text', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(39): CActiveForm->label(NULL, 'text')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:34:03 [error] [exception.Error] Error: Call to a member function getAttributeLabel() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1495
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(585): CHtml::activeLabel(NULL, 'text', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(39): CActiveForm->label(NULL, 'text')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:34:03 [error] [exception.Error] Error: Call to a member function getAttributeLabel() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1495
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(585): CHtml::activeLabel(NULL, 'text', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(39): CActiveForm->label(NULL, 'text')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:34:03 [error] [exception.Error] Error: Call to a member function getAttributeLabel() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1495
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(585): CHtml::activeLabel(NULL, 'text', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(39): CActiveForm->label(NULL, 'text')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:34:04 [error] [exception.Error] Error: Call to a member function getAttributeLabel() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1495
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(585): CHtml::activeLabel(NULL, 'text', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(39): CActiveForm->label(NULL, 'text')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:34:04 [error] [exception.Error] Error: Call to a member function getAttributeLabel() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1495
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(585): CHtml::activeLabel(NULL, 'text', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(39): CActiveForm->label(NULL, 'text')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:34:04 [error] [exception.Error] Error: Call to a member function getAttributeLabel() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1495
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(585): CHtml::activeLabel(NULL, 'text', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(39): CActiveForm->label(NULL, 'text')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:34:04 [error] [exception.Error] Error: Call to a member function getAttributeLabel() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1495
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(585): CHtml::activeLabel(NULL, 'text', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(39): CActiveForm->label(NULL, 'text')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:34:04 [error] [exception.Error] Error: Call to a member function getAttributeLabel() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1495
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(585): CHtml::activeLabel(NULL, 'text', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(39): CActiveForm->label(NULL, 'text')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:34:05 [error] [exception.Error] Error: Call to a member function getAttributeLabel() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1495
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(585): CHtml::activeLabel(NULL, 'text', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(39): CActiveForm->label(NULL, 'text')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:34:18 [error] [exception.Error] Error: Call to a member function getAttributeLabel() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1495
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(585): CHtml::activeLabel(NULL, 'text', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(39): CActiveForm->label(NULL, 'text')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:37:26 [error] [exception.Error] Error: Call to a member function getAttributeLabel() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1495
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(585): CHtml::activeLabel(NULL, 'text', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(39): CActiveForm->label(NULL, 'text')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:42:07 [error] [exception.Error] Error: Call to a member function getErrors() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:2218
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(550): CHtml::errorSummary(Array, NULL, NULL, Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(38): CActiveForm->errorSummary(NULL)
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:42:08 [error] [exception.Error] Error: Call to a member function getErrors() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:2218
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(550): CHtml::errorSummary(Array, NULL, NULL, Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(38): CActiveForm->errorSummary(NULL)
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:42:08 [error] [exception.Error] Error: Call to a member function getErrors() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:2218
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(550): CHtml::errorSummary(Array, NULL, NULL, Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(38): CActiveForm->errorSummary(NULL)
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:42:08 [error] [exception.Error] Error: Call to a member function getErrors() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:2218
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(550): CHtml::errorSummary(Array, NULL, NULL, Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(38): CActiveForm->errorSummary(NULL)
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:42:15 [error] [exception.Error] Error: Call to a member function getErrors() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:2218
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(550): CHtml::errorSummary(Array, NULL, NULL, Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(38): CActiveForm->errorSummary(NULL)
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:42:55 [error] [exception.Error] Error: Call to a member function isAttributeRequired() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1520
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(NULL, 'name', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(41): CActiveForm->labelEx(NULL, 'name')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:42:56 [error] [exception.Error] Error: Call to a member function isAttributeRequired() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1520
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(NULL, 'name', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(41): CActiveForm->labelEx(NULL, 'name')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:42:56 [error] [exception.Error] Error: Call to a member function isAttributeRequired() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1520
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(NULL, 'name', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(41): CActiveForm->labelEx(NULL, 'name')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:42:56 [error] [exception.Error] Error: Call to a member function isAttributeRequired() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1520
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(NULL, 'name', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(41): CActiveForm->labelEx(NULL, 'name')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:44:37 [error] [exception.Error] Error: Call to a member function isAttributeRequired() on null in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php:1520
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(NULL, 'name', Array)
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(47): CActiveForm->labelEx(NULL, 'name')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', NULL, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', NULL, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:46:02 [error] [exception.CException] CException: Property "Yandex.name" is not defined. in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php(2747): CComponent->__get('name')
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php(2470): CHtml::resolveValue(Object(Yandex), 'name')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php(1540): CHtml::activeInputField('text', Object(Yandex), 'name', Array)
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(Object(Yandex), 'name', Array)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(48): CActiveForm->textField(Object(Yandex), 'name')
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', Array, true)
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', Array, true)
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', Array, true)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index', Array)
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#15 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#16 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 12:49:45 [error] [exception.CException] CException: Property "Yandex.Yandex" is not defined. in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php(2747): CComponent->__get('Yandex')
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php(2470): CHtml::resolveValue(Object(Yandex), 'Yandex')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php(1540): CHtml::activeInputField('text', Object(Yandex), 'Yandex', Array)
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(Object(Yandex), 'Yandex', Array)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(53): CActiveForm->textField(Object(Yandex), 'Yandex')
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', Array, true)
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', Array, true)
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', Array, true)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): CController->render('index', Array)
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#15 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#16 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+---
+2017/12/09 13:10:01 [error] [exception.CException] CException: Property "Yandex.resYandex" is not defined. in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php(2747): CComponent->__get('resYandex')
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\helpers\CHtml.php(1840): CHtml::resolveValue(Object(Yandex), 'resYandex')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\widgets\CActiveForm.php(853): CHtml::activeTextArea(Object(Yandex), 'resYandex', Array)
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(56): CActiveForm->textArea(Object(Yandex), 'resYandex')
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', Array, true)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', Array, true)
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', Array, true)
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(12): CController->render('index', Array)
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#14 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#15 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+HTTP_REFERER=http://phpproject/yii/www/index.php?r=button
+---
+2017/12/09 13:12:47 [error] [exception.CException] CException: Property "ButtonController." is not defined. in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\views\button\index.php(56): CComponent->__get('')
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(126): require('D:\\Soft\\OpenSer...')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Soft\\OpenSer...', Array, true)
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\Soft\\OpenSer...', Array, true)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(785): CController->renderPartial('index', Array, true)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(12): CController->render('index', Array)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('')
+#11 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button')
+#12 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii/www/index.php?r=button
+HTTP_REFERER=http://phpproject/yii/www/index.php?r=button
+---
+2017/12/09 13:15:17 [error] [php] file_get_contents(https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20171207T231404Z.7f8566471c9b82ca.0074ef70006b378bdf8ed8b3d28eb2b80a05a9c7&amp;text=&amp;lang=ru-en&amp;format=plain): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php:15)
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): ButtonController->runAction()
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): ButtonController->runActionWithFilters()
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): ButtonController->run()
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/www/index.php?r=button
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php (15)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php (10)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php (13)
+2017/12/09 13:23:05 [error] [php] file_get_contents(https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20171207T231404Z.7f8566471c9b82ca.0074ef70006b378bdf8ed8b3d28eb2b80a05a9c7&amp;text=&amp;lang=ru-en&amp;format=plain): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php:15)
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): ButtonController->runAction()
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): ButtonController->runActionWithFilters()
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): ButtonController->run()
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/www/index.php?r=button
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php (15)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php (11)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php (13)
+2017/12/09 13:23:34 [error] [php] file_get_contents(https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20171207T231404Z.7f8566471c9b82ca.0074ef70006b378bdf8ed8b3d28eb2b80a05a9c7&amp;text=&amp;lang=ru-en&amp;format=plain): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php:15)
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): ButtonController->runAction()
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): ButtonController->runActionWithFilters()
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): ButtonController->run()
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/www/index.php?r=button
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php (15)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php (11)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php (13)
+2017/12/09 13:25:42 [error] [php] file_get_contents(https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20171207T231404Z.7f8566471c9b82ca.0074ef70006b378bdf8ed8b3d28eb2b80a05a9c7&amp;text=&amp;lang=ru-en&amp;format=plain): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php:15)
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): ButtonController->runAction()
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): ButtonController->runActionWithFilters()
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): ButtonController->run()
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/www/index.php?r=button
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php (15)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php (12)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php (13)
+2017/12/09 13:25:46 [error] [php] file_get_contents(https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20171207T231404Z.7f8566471c9b82ca.0074ef70006b378bdf8ed8b3d28eb2b80a05a9c7&amp;text=&amp;lang=ru-en&amp;format=plain): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php:15)
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): ButtonController->runAction()
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): ButtonController->runActionWithFilters()
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): ButtonController->run()
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/www/index.php?r=button
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php (15)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php (12)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php (13)
+2017/12/09 13:25:47 [error] [php] file_get_contents(https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20171207T231404Z.7f8566471c9b82ca.0074ef70006b378bdf8ed8b3d28eb2b80a05a9c7&amp;text=&amp;lang=ru-en&amp;format=plain): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php:15)
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): ButtonController->runAction()
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): ButtonController->runActionWithFilters()
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): ButtonController->run()
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/www/index.php?r=button
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php (15)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php (12)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php (13)
+2017/12/09 13:25:48 [error] [php] file_get_contents(https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20171207T231404Z.7f8566471c9b82ca.0074ef70006b378bdf8ed8b3d28eb2b80a05a9c7&amp;text=&amp;lang=ru-en&amp;format=plain): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php:15)
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): ButtonController->runAction()
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): ButtonController->runActionWithFilters()
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): ButtonController->run()
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/www/index.php?r=button
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php (15)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php (12)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php (13)
+2017/12/09 13:25:49 [error] [php] file_get_contents(https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20171207T231404Z.7f8566471c9b82ca.0074ef70006b378bdf8ed8b3d28eb2b80a05a9c7&amp;text=&amp;lang=ru-en&amp;format=plain): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php:15)
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): ButtonController->runAction()
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): ButtonController->runActionWithFilters()
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): ButtonController->run()
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/www/index.php?r=button
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php (15)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php (12)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php (13)
+2017/12/09 13:25:49 [error] [php] file_get_contents(https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20171207T231404Z.7f8566471c9b82ca.0074ef70006b378bdf8ed8b3d28eb2b80a05a9c7&amp;text=&amp;lang=ru-en&amp;format=plain): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php:15)
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): ButtonController->runAction()
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): ButtonController->runActionWithFilters()
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): ButtonController->run()
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/www/index.php?r=button
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php (15)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php (12)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php (13)
+2017/12/09 13:25:50 [error] [php] file_get_contents(https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20171207T231404Z.7f8566471c9b82ca.0074ef70006b378bdf8ed8b3d28eb2b80a05a9c7&amp;text=&amp;lang=ru-en&amp;format=plain): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php:15)
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): ButtonController->runAction()
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): ButtonController->runActionWithFilters()
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): ButtonController->run()
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/www/index.php?r=button
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php (15)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php (12)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php (13)
+2017/12/09 13:25:51 [error] [php] file_get_contents(https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20171207T231404Z.7f8566471c9b82ca.0074ef70006b378bdf8ed8b3d28eb2b80a05a9c7&amp;text=&amp;lang=ru-en&amp;format=plain): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php:15)
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): ButtonController->runAction()
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): ButtonController->runActionWithFilters()
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): ButtonController->run()
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/www/index.php?r=button
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php (15)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php (12)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php (13)
+2017/12/09 13:25:52 [error] [php] file_get_contents(https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20171207T231404Z.7f8566471c9b82ca.0074ef70006b378bdf8ed8b3d28eb2b80a05a9c7&amp;text=&amp;lang=ru-en&amp;format=plain): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php:15)
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): ButtonController->runAction()
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): ButtonController->runActionWithFilters()
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): ButtonController->run()
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/www/index.php?r=button
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php (15)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php (12)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php (13)
+2017/12/09 13:25:52 [error] [php] file_get_contents(https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20171207T231404Z.7f8566471c9b82ca.0074ef70006b378bdf8ed8b3d28eb2b80a05a9c7&amp;text=&amp;lang=ru-en&amp;format=plain): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php:15)
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): ButtonController->runAction()
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): ButtonController->runActionWithFilters()
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): ButtonController->run()
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/www/index.php?r=button
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php (15)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php (12)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php (13)
+2017/12/09 13:25:53 [error] [php] file_get_contents(https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20171207T231404Z.7f8566471c9b82ca.0074ef70006b378bdf8ed8b3d28eb2b80a05a9c7&amp;text=&amp;lang=ru-en&amp;format=plain): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php:15)
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): ButtonController->runAction()
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): ButtonController->runActionWithFilters()
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): ButtonController->run()
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/www/index.php?r=button
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php (15)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php (12)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php (13)
+2017/12/09 13:26:40 [error] [php] file_get_contents(https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20171207T231404Z.7f8566471c9b82ca.0074ef70006b378bdf8ed8b3d28eb2b80a05a9c7&amp;text=&amp;lang=ru-en&amp;format=plain): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php:15)
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): ButtonController->runAction()
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): ButtonController->runActionWithFilters()
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): ButtonController->run()
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/www/index.php?r=button
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php (15)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php (12)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php (13)
+2017/12/09 13:26:42 [error] [php] file_get_contents(https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20171207T231404Z.7f8566471c9b82ca.0074ef70006b378bdf8ed8b3d28eb2b80a05a9c7&amp;text=&amp;lang=ru-en&amp;format=plain): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php:15)
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): ButtonController->runAction()
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): ButtonController->runActionWithFilters()
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): ButtonController->run()
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/www/index.php?r=button
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php (15)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php (12)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php (13)
