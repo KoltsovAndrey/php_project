@@ -5,14 +5,25 @@ class ButtonController extends Controller
 	public function actionIndex()
 	{
 		$model=new Yandex();
-		print_r($_POST);
-//		echo $_POST["Yandex"]["text"];
+        $model2=new Multillect();
 		if ($_POST["Yandex"]["text"] != null)
         {
             $model->text = $_POST["Yandex"]["text"];
-            $model->resText = $model->YaTr($model->text);
+            $model->from = $_POST["Yandex"]["from"];
+            $model->to = $_POST["Yandex"]["to"];
+
+            $model->resText = $model->YaTr($model->text, $model->from, $model->to);
+
+            $model2->text = $_POST["Yandex"]["text"];
+            $model2->from = $_POST["Yandex"]["from"];
+            $model2->to = $_POST["Yandex"]["to"];
+
+            $model2->resText = $model2->Tr($model2->text, $model2->from, $model2->to);
         }
-        $this->render('index', array('model'=>$model));
+
+        $model->text = str_replace('%20', ' ', $model->text);
+
+        $this->render('index', array('model'=>$model, 'model2'=>$model2));
 	}
 
 	// Uncomment the following methods and override them if needed

@@ -1,20 +1,13 @@
 <?php
 /* @var $this ButtonController */
 /* @var $model Yandex */
+/* @var $model2 Multillect */
 /* @var $form CActiveForm */
 
 //$this->breadcrumbs=array(
 //	'Button',
 //);
 ?>
-<!--
-<h1><?php echo $this->id . '/' . $this->action->id; ?></h1>
-
-<p>
-	You may change the content of this page by modifying
-	the file <tt><?php echo __FILE__; ?></tt>.
-</p>
--->
 
 <?php $form=$this->beginWidget('CActiveForm', array(
     'id'=>'contact-form',
@@ -24,22 +17,21 @@
     ),
 )); ?>
 
-<p class="note">Текст для перевода</p>
-<!--<div class="text">-->
-<!--    from-->
-<!--    <select>-->
-<!--        <option>RU</option>-->
-<!--    </select>-->
-<!--    to-->
-<!--    <select>-->
-<!--        <option>EN</option>-->
-<!--    </select>-->
-<!--    <form method="post">-->
-<!--        <textarea placeholder="Текст для перевода"></textarea>-->
-<!--        <br/>-->
-<!--        <input type="button" value="Перевод">-->
-<!--    </form> -->
-<!--</div>-->
+<?php
+    $leng = array('ru'=>"RU", 'en'=>"EN", 'de'=>"DE", 'es'=>"ES", 'fr'=>"FR", 'it'=>"IT");
+?>
+
+<div class="from">
+    <?php echo $form->labelEx($model,'From'); ?>
+    <?php echo $form->dropDownList($model,'from', $leng); ?>
+    <?php echo $form->error($model,'text'); ?>
+</div>
+
+<div class="to">
+    <?php echo $form->labelEx($model,'To'); ?>
+    <?php echo $form->dropDownList($model,'to', $leng); ?>
+    <?php echo $form->error($model,'text'); ?>
+</div>
 
 <div class="text">
     <?php echo $form->labelEx($model,'text'); ?>
@@ -56,26 +48,11 @@
     <?php echo $form->textArea($model, 'resText'); ?>
     <?php echo $form->error($model,'resText'); ?>
 </div>
-<!--Yandex-->
-<!--<div class="yandex">-->
-<!--    <textarea placeholder="Перевод от Yandex">-->
-<!---->
-<!--    </textarea>-->
-<!--</div>-->
-<!---->
-<!--Google-->
-<!--<div class="google">-->
-<!--    <textarea placeholder="Первевод от Google">-->
-<!---->
-<!--    </textarea>-->
-<!--</div>-->
-<!---->
-<!--Microsoft-->
-<!--<div class="microsoft">-->
-<!--    <textarea placeholder="Перевод от Microsoft">-->
-<!---->
-<!--    </textarea>-->
-<!--</div>-->
 
+<div class="multillect">
+    <?php echo $form->labelEx($model2,'Multillect'); ?>
+    <?php echo $form->textArea($model2, 'resText'); ?>
+    <?php echo $form->error($model2,'resText'); ?>
+</div>
 
 <?php $this->endWidget(); ?>
