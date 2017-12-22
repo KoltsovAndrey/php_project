@@ -1,0 +1,69 @@
+.from, .to{
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.from {
+    padding-left: 350px;
+}
+
+.to {
+    padding-left: 20px;
+ }
+
+.text {
+    /*display: inline-block;*/
+    margin: auto;
+    padding-left: 250px;
+}
+
+.text textarea{
+    width: 400px;
+    height: 100px;
+    resize: none;
+}
+
+.text label {
+    vertical-align: top;
+    display: block;
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /*display: inline-block;*/
+    margin: auto;
+}
+
+.yandex, .multillect {
+    display: inline-block;
+}
+
+.yandex {
+    padding-right: 30px ;
+    padding-left: 30px;
+}
+
+.yandex label{
+    vert-align: top;
+    display: block;
+}
+
+.yandex textarea {
+    width: 400px;
+    height: 100px;
+    resize: none;
+}
+
+.multillect label{
+    vertical-align: top;
+    display: block;
+}
+
+.multillect textarea{
+    width: 400px;
+    height: 100px;
+    resize: none;
+}

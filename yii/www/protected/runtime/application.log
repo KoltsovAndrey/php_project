@@ -3954,3 +3954,195 @@ REQUEST_URI=/yii/www/index.php?r=button
 in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php (16)
 in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php (15)
 in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php (13)
+2017/12/20 13:20:47 [error] [exception.ParseError] ParseError: syntax error, unexpected 'return' (T_RETURN) in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Multillect.php:25
+Stack trace:
+#0 [internal function]: YiiBase::autoload('Multillect')
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(8): spl_autoload_call('Multillect')
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button/index')
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/www/index.php?r=button/index
+HTTP_REFERER=http://phpproject/yii/www/index.php?r=button/index
+---
+2017/12/20 13:25:53 [error] [exception.Error] Error: Call to undefined function unicode_chr() in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Multillect.php:23
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(21): Multillect->Tr('meine', 'de', 'ru')
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button/index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/www/index.php?r=button/index
+HTTP_REFERER=http://phpproject/yii/www/index.php?r=button/index
+---
+2017/12/20 13:26:28 [error] [exception.Error] Error: Call to undefined function unicode_chr() in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Multillect.php:23
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(21): Multillect->Tr('meine', 'de', 'ru')
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button/index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/www/index.php?r=button/index
+HTTP_REFERER=http://phpproject/yii/www/index.php?r=button/index
+---
+2017/12/20 13:30:17 [error] [php] file_get_contents(https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20171207T231404Z.7f8566471c9b82ca.0074ef70006b378bdf8ed8b3d28eb2b80a05a9c7&amp;text=мои&amp;lang=ru-ru&amp;format=plain): failed to open stream: HTTP request failed!  (D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php:16)
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): ButtonController->runAction()
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): ButtonController->runActionWithFilters()
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): ButtonController->run()
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/www/index.php?r=button/index
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php (16)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php (15)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php (13)
+2017/12/20 13:37:20 [error] [php] file_get_contents(https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20171207T231404Z.7f8566471c9b82ca.0074ef70006b378bdf8ed8b3d28eb2b80a05a9c7&amp;text=my&amp;lang=en-ru&amp;format=plain): failed to open stream: HTTP request failed!  (D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php:16)
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): ButtonController->runAction()
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): ButtonController->runActionWithFilters()
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): ButtonController->run()
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/www/index.php?r=button/index
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php (16)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php (15)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php (13)
+2017/12/20 13:37:52 [error] [php] mb_convert_encoding(): Unknown encoding &quot;ASCI&quot; (D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Multillect.php:24)
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): ButtonController->runAction()
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): ButtonController->runActionWithFilters()
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): ButtonController->run()
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/www/index.php?r=button/index
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Multillect.php (24)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php (21)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php (13)
+2017/12/20 14:04:02 [error] [php] file_get_contents(https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20171207T231404Z.7f8566471c9b82ca.0074ef70006b378bdf8ed8b3d28eb2b80a05a9c7&amp;text=sister&amp;lang=en-ru&amp;format=plain): failed to open stream: ������ ��������� ���������� ��� ����������, �.�. �� ������� �������� �� ��������� ���� �� ������ ����� ������, ��� ��� ��������� ��� ������������� ���������� ��-�� ��������� ������� ��� ����������� ��������.
+ (D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php:16)
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): ButtonController->runAction()
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): ButtonController->runActionWithFilters()
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): ButtonController->run()
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/www/index.php?r=button/index
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php (16)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php (15)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php (13)
+2017/12/20 14:04:08 [error] [php] file_get_contents(https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20171207T231404Z.7f8566471c9b82ca.0074ef70006b378bdf8ed8b3d28eb2b80a05a9c7&amp;text=sister&amp;lang=en-ru&amp;format=plain): failed to open stream: ������ ��������� ���������� ��� ����������, �.�. �� ������� �������� �� ��������� ���� �� ������ ����� ������, ��� ��� ��������� ��� ������������� ���������� ��-�� ��������� ������� ��� ����������� ��������.
+ (D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php:16)
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): ButtonController->runAction()
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): ButtonController->runActionWithFilters()
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): ButtonController->run()
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/www/index.php?r=button/index
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php (16)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php (15)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php (13)
+2017/12/20 14:04:14 [error] [php] file_get_contents(https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20171207T231404Z.7f8566471c9b82ca.0074ef70006b378bdf8ed8b3d28eb2b80a05a9c7&amp;text=sister&amp;lang=en-ru&amp;format=plain): failed to open stream: ������ ��������� ���������� ��� ����������, �.�. �� ������� �������� �� ��������� ���� �� ������ ����� ������, ��� ��� ��������� ��� ������������� ���������� ��-�� ��������� ������� ��� ����������� ��������.
+ (D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php:16)
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): ButtonController->runAction()
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): ButtonController->runActionWithFilters()
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): ButtonController->run()
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/www/index.php?r=button/index
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php (16)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php (15)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php (13)
+2017/12/20 14:04:47 [error] [php] file_get_contents(https://api.multillect.com/translate/json/1.0/621?method=translate/api/translate&amp;from=en&amp;to=ru&amp;text=sister&amp;sig=4868f954f8fa1500b0a84aa11cfd7aa0): failed to open stream: ������ ��������� ���������� ��� ����������, �.�. �� ������� �������� �� ��������� ���� �� ������ ����� ������, ��� ��� ��������� ��� ������������� ���������� ��-�� ��������� ������� ��� ����������� ��������.
+ (D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Multillect.php:14)
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): ButtonController->runAction()
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): ButtonController->runActionWithFilters()
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): ButtonController->run()
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/www/index.php?r=button/index
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Multillect.php (14)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php (21)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php (13)
+2017/12/20 14:05:29 [error] [php] file_get_contents(https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20171207T231404Z.7f8566471c9b82ca.0074ef70006b378bdf8ed8b3d28eb2b80a05a9c7&amp;text=sister&amp;lang=en-ru&amp;format=plain): failed to open stream: ������ ��������� ���������� ��� ����������, �.�. �� ������� �������� �� ��������� ���� �� ������ ����� ������, ��� ��� ��������� ��� ������������� ���������� ��-�� ��������� ������� ��� ����������� ��������.
+ (D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php:16)
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): ButtonController->runAction()
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): ButtonController->runActionWithFilters()
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): ButtonController->run()
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/www/index.php?r=button/index
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php (16)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php (15)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php (13)
+2017/12/20 14:09:07 [error] [php] file_get_contents(https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20171207T231404Z.7f8566471c9b82ca.0074ef70006b378bdf8ed8b3d28eb2b80a05a9c7&amp;text=sister&amp;lang=en-ru&amp;format=plain): failed to open stream: ������ ��������� ���������� ��� ����������, �.�. �� ������� �������� �� ��������� ���� �� ������ ����� ������, ��� ��� ��������� ��� ������������� ���������� ��-�� ��������� ������� ��� ����������� ��������.
+ (D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php:16)
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): ButtonController->runAction()
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): ButtonController->runActionWithFilters()
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): ButtonController->run()
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/www/index.php?r=button/index
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Yandex.php (16)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php (15)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php (13)
+2017/12/20 14:09:14 [error] [php] file_get_contents(): php_network_getaddresses: getaddrinfo failed: ���� ���� ����������.  (D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Multillect.php:14)
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): ButtonController->runAction()
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): ButtonController->runActionWithFilters()
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): ButtonController->run()
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/www/index.php?r=button/index
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Multillect.php (14)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php (21)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php (13)

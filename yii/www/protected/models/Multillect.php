@@ -15,10 +15,14 @@ class Multillect extends CFormModel
 
         if(preg_match("/\"translated\":\".+?\"/u",$ans, $res))
         {
+            //echo  $res[0];
             $resText = substr(substr($res[0], 14), 0, -2);
         }
 
         $resText = str_replace('__ ', "\r\n", $resText);
+
+        //echo utf8_decode($resText);
+
 
         return $resText;
     }
