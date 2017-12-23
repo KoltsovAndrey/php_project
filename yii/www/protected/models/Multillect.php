@@ -13,16 +13,25 @@ class Multillect extends CFormModel
 
         $ans = file_get_contents($url);
 
-        if(preg_match("/\"translated\":\".+?\"/u",$ans, $res))
-        {
-            //echo  $res[0];
-            $resText = substr(substr($res[0], 14), 0, -2);
-        }
+        //echo $ans;
 
-        $resText = str_replace('__ ', "\r\n", $resText);
+        $resres = json_decode($ans, true);
+
+        //print_r($resres[result][translated]);
+
+        //print_r($resres);
+
+//        if(preg_match("/\"translated\":\".+?\"/u",$ans, $res))
+//        {
+//            //echo  $res[0];
+//            $resText = substr(substr($res[0], 14), 0, -2);
+//        }
+//
+//        $resText = str_replace('__ ', "\r\n", $resText);
 
         //echo utf8_decode($resText);
 
+        $resText = $resres[result][translated];
 
         return $resText;
     }

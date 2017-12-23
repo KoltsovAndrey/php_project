@@ -15,12 +15,16 @@ class Yandex extends CFormModel
 
         $ans = file_get_contents($url);
 
-        if(preg_match("/\"text\":\[.*\]/u", $ans, $res))
-        {
-            $resText = substr(substr($res[0], 9), 0, -2);
-        }
+        $resres = json_decode($ans, true);
 
-        $resText = str_replace('__', "\r\n", $resText);
+//        if(preg_match("/\"text\":\[.*\]/u", $ans, $res))
+//        {
+//            $resText = substr(substr($res[0], 9), 0, -2);
+//        }
+//
+//        $resText = str_replace('__', "\r\n", $resText);
+
+        $resText = $resres[text][0];
 
         return $resText;
     }

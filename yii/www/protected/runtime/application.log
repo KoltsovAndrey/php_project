@@ -4146,3 +4146,61 @@ REQUEST_URI=/yii/www/index.php?r=button/index
 in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Multillect.php (14)
 in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php (21)
 in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php (13)
+2017/12/23 10:15:45 [error] [php] Object of class stdClass could not be converted to string (D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Multillect.php:20)
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): ButtonController->runAction()
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): ButtonController->runActionWithFilters()
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): ButtonController->run()
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/www/index.php?r=button/index
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Multillect.php (20)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php (21)
+in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php (13)
+2017/12/23 10:17:22 [error] [exception.Error] Error: Cannot use object of type stdClass as array in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Multillect.php:20
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(21): Multillect->Tr('my', 'en', 'ru')
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button/index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/www/index.php?r=button/index
+HTTP_REFERER=http://phpproject/yii/www/index.php?r=button/index
+---
+2017/12/23 10:17:45 [error] [exception.Error] Error: Cannot use object of type stdClass as array in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Multillect.php:20
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(21): Multillect->Tr('my', 'en', 'ru')
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button/index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/www/index.php?r=button/index
+HTTP_REFERER=http://phpproject/yii/www/index.php?r=button/index
+---
+2017/12/23 10:18:14 [error] [exception.Error] Error: Cannot use object of type stdClass as array in D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\models\Multillect.php:20
+Stack trace:
+#0 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\protected\controllers\ButtonController.php(21): Multillect->Tr('my', 'en', 'ru')
+#1 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\actions\CInlineAction.php(49): ButtonController->actionIndex()
+#2 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#6 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('button/index')
+#7 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\Soft\OpenServer\OSPanel\domains\phpproject\yii\www\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/www/index.php?r=button/index
+HTTP_REFERER=http://phpproject/yii/www/index.php?r=button/index
+---
