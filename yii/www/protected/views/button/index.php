@@ -18,7 +18,7 @@
 )); ?>
 
 <?php
-    $leng = array('ru'=>"RU", 'en'=>"EN", 'de'=>"DE", 'es'=>"ES", 'fr'=>"FR", 'it'=>"IT");
+    $leng = array('ru'=>"Руссккий", 'en'=>"Английский", 'de'=>"Немецкий", 'es'=>"Испанский", 'fr'=>"Францизкий", 'it'=>"Итальянский");
 ?>
 
 <div class="from">
@@ -34,7 +34,7 @@
 </div>
 
 <div class="text">
-    <?php echo $form->labelEx($model,'text'); ?>
+    <?php echo $form->labelEx($model,'Текст'); ?>
     <?php echo $form->textArea($model,'text'); ?>
     <?php echo $form->error($model,'text'); ?>
 </div>
