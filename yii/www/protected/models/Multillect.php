@@ -33,6 +33,8 @@ class Multillect extends CFormModel
 
         $resText = $resres[result][translated];
 
+        $resText = str_replace('__ ', "\n", $resText);
+
         return $resText;
     }
 }

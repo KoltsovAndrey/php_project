@@ -26,6 +26,8 @@ class Yandex extends CFormModel
 
         $resText = $resres[text][0];
 
+        $resText = str_replace('__', "\n", $resText);
+
         return $resText;
     }
 }
